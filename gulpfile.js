@@ -25,7 +25,7 @@ var imagesOpts = {
 var sassOpts = {
     errLogToConsole: true,
     includePaths: [
-        '/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets',
+        'vendor/mindy-sass/mindy',
         'vendor/foundation/scss'
     ]
 };

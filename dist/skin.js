@@ -26,6 +26,8 @@ CKEDITOR.config.plugins = "dialogui,dialog,basicstyles,blockquote,clipboard," +
 "showborders,sourcearea,specialchar,tab,table," +
 "tabletools,templates,toolbar,undo,wsc,wysiwygarea";
 
+CKEDITOR.config.removePlugins = 'contextmenu';
+
 CKEDITOR.editorConfig = function (config) {
     // http://docs.ckeditor.com/#!/api/CKEDITOR.config
 

@@ -1,7 +1,8 @@
 {
-    "name": "foundation-libsass-template",
-    "dependencies": {
-        "foundation": "~5.5.0"
-    },
-    "devDependencies": {}
+  "name": "foundation-libsass-template",
+  "dependencies": {
+    "foundation": "~5.5.0",
+    "mindy-sass": "*"
+  },
+  "devDependencies": {}
 }

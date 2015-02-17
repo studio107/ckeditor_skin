@@ -4,55 +4,31 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 */
 .cke_dialog {
   visibility: visible; }
+  .cke_dialog table thead tr th, .cke_dialog table thead tr td, .cke_dialog table tbody tr th, .cke_dialog table tbody tr td {
+    background-color: #fff !important; }
 
 .cke_dialog_body {
   z-index: 1;
   background: #eaeaea;
   border: 1px solid #b2b2b2;
-  border-bottom-color: #999;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
+  border-bottom-color: #999; }
 
 .cke_dialog strong {
   font-weight: bold; }
 
 .cke_dialog_title {
-  font-weight: bold;
-  font-size: 13px;
+  font-size: 1rem;
   cursor: move;
   position: relative;
-  color: #f2f2f2;
-  text-shadow: 0 1px 0 #000;
-  border: 1px solid #0d0d0d;
-  padding: 6px 10px;
-  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 0 #fff;
-  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 0 #fff;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 0 #fff;
-  -moz-border-radius: 2px 2px 0 0;
-  -webkit-border-radius: 2px 2px 0 0;
-  border-radius: 2px 2px 0 0;
-  background: #262626;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#4c4c4c), to(#262626));
-  background-image: -moz-linear-gradient(top, #4c4c4c, #262626);
-  background-image: -webkit-linear-gradient(top, #4c4c4c, #262626);
-  background-image: -o-linear-gradient(top, #4c4c4c, #262626);
-  background-image: -ms-linear-gradient(top, #4c4c4c, #262626);
-  background-image: linear-gradient(top, #4c4c4c, #262626);
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#4c4c4c', endColorstr='#262626'); }
+  color: #2d2d2d;
+  padding: 6px 10px; }
 
 .cke_dialog_contents {
   background-color: #fff;
   overflow: auto;
   padding: 15px 10px 5px 10px;
   margin-top: 30px;
-  border-top: 1px solid #bfbfbf;
-  -moz-border-radius: 0 0 3px 3px;
-  -webkit-border-radius: 0 0 3px 3px;
-  border-radius: 0 0 3px 3px; }
+  border-top: 1px solid #bfbfbf; }
 
 .cke_dialog_contents_body {
   overflow: auto;
@@ -63,21 +39,7 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
   text-align: right;
   position: relative;
   border: 0;
-  outline: 1px solid #bfbfbf;
-  -moz-box-shadow: 0 1px 0 #fff inset;
-  -webkit-box-shadow: 0 1px 0 #fff inset;
-  box-shadow: 0 1px 0 #fff inset;
-  -moz-border-radius: 0 0 2px 2px;
-  -webkit-border-radius: 0 0 2px 2px;
-  border-radius: 0 0 2px 2px;
-  background: #cfd1cf;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ebebeb), to(#cfd1cf));
-  background-image: -moz-linear-gradient(top, #ebebeb, #cfd1cf);
-  background-image: -webkit-linear-gradient(top, #ebebeb, #cfd1cf);
-  background-image: -o-linear-gradient(top, #ebebeb, #cfd1cf);
-  background-image: -ms-linear-gradient(top, #ebebeb, #cfd1cf);
-  background-image: linear-gradient(top, #ebebeb, #cfd1cf);
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#ebebeb', endColorstr='#cfd1cf'); }
+  border-top: 1px solid #ddd; }
 
 .cke_rtl .cke_dialog_footer {
   text-align: left; }
@@ -96,7 +58,7 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 .cke_dialog_tabs {
   height: 24px;
   display: inline-block;
-  margin: 5px 0 0;
+  margin: 5px 10px 0;
   position: absolute;
   z-index: 2;
   left: 10px; }
@@ -105,7 +67,6 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
   right: 10px; }
 
 a.cke_dialog_tab {
-  height: 16px;
   padding: 4px 8px;
   margin-right: 3px;
   display: inline-block;
@@ -192,7 +153,6 @@ a.cke_dialog_tab_disabled {
 .cke_hc .cke_dialog_close_button span {
   display: inline;
   cursor: pointer;
-  font-weight: bold;
   position: relative;
   top: 3px; }
 
@@ -347,7 +307,6 @@ a.cke_dialog_ui_button:focus, a.cke_dialog_ui_button:active {
 .cke_dialog_footer_buttons a.cke_dialog_ui_button span {
   color: inherit;
   font-size: 12px;
-  font-weight: bold;
   line-height: 20px; }
 
 a.cke_dialog_ui_button_ok {

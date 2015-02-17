@@ -25,9 +25,12 @@ p {
 }
 
 .cke_contents_ltr blockquote {
-  padding-left: 20px;
-  padding-right: 8px;
+  padding: 5px 5px 5px 20px;
   border-left-width: 5px;
+
+  p {
+    margin-bottom: 0;
+  }
 }
 
 .cke_contents_rtl blockquote {
